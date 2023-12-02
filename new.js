@@ -1,6 +1,6 @@
 
 // nome de classe com primeira letram iuscula por convensão
-function User(nome,email) {
+/*function User(nome,email) {
     this.nome=nome,
     this.email=email
     this.exibirInfos=function () {
@@ -11,7 +11,7 @@ function User(nome,email) {
 
 //const novoUser = new User('Juliana','j@j.com');
 //console.log(novoUser.exibirInfos());
-
+*/
 /*
 
 function Admin(role) {

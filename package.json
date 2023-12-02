@@ -1,0 +1,27 @@
+{
+  "name": "Aluraseman10",
+  "version": "1.0.0",
+  "description": "referencias",
+  "type": "module",
+  "main": "User.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduardo-stivanin-c/Aluraseman10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eduardo-stivanin-c/Aluraseman10/issues"
+  },
+  "homepage": "https://github.com/Eduardo-stivanin-c/Aluraseman10#readme",
+  "dependencies": {
+    "chalk": "5.0.1"
+  }
+}
