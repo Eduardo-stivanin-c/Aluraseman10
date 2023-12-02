@@ -13,6 +13,7 @@ console.log(estudante.perfil) //'estudante'
 
 -*/
 
+
 function User() {}
 User.prototype.perfil = 'estudante'
 let estudante = new User()
