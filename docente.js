@@ -1,1 +1,1 @@
-class
+class docente extends User{}
