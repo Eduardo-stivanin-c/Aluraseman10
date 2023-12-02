@@ -1,4 +1,4 @@
-import User from "./User";
+import User from  './User.js';
 
 //classe Admin filho  de classe User 
 class Admin extends User{
@@ -7,19 +7,19 @@ class Admin extends User{
 {
     super((nome,email,nascimento,role,ativo))
 }
-}
 
-criarCurso(nomeDoCurso,vagas)
+
+ criarCurso(nomeDoCurso,vagas)
 {
-    return `Curso de ${nomeDoCurso} criado com ${vagas} vagas`
+    return `Curso de ${nomeDoCurso} criado com ${vagas} vagas`;
 }
-
+}
 
 
 const  novoAdmin =  new Admin('Rodrigo','r@r.com','2021-01-01');
 
 //console.log(novoAdmin);
-console.log(novoAdmin.criarCurso('JS',20));
+console.log(novoAdmin.criarCurso('JS','20'));
 
 
 
