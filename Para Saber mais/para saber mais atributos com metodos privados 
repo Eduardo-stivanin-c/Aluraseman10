@@ -66,4 +66,7 @@ class User {
     this._nome = nome;
   }
 }
-*/
+*//*
+const novoUser = new User()
+novoUser.setNome('Rodrigo');
+console.log(novoUser.getNome()); //Rodrigo*/
