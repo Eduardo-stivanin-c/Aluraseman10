@@ -1,4 +1,4 @@
-class User {
+/*class User {
   role = '';
 
   constructor(nome) {
@@ -13,3 +13,24 @@ let novoUser = new User('Rodrigo');
 // modificar o role
 novoUser.role = 'admin';
 console.log(novoUser.role) // admin
+*/
+
+
+class User {
+  _role = '';
+
+  set role(tipoRole) {
+    if (tipoRole !== 'admin') {
+      tipoRole = 'estudante'
+    }
+    this._role = tipoRole
+  }
+
+  get role() {
+    return this._role
+  }
+
+  constructor(nome) {
+    this._nome = nome;
+  }
+}
