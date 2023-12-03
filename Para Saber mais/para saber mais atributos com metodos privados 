@@ -15,7 +15,7 @@ novoUser.role = 'admin';
 console.log(novoUser.role) // admin
 */
 
-
+/*
 class User {
   _role = '';
 
@@ -34,3 +34,15 @@ class User {
     this._nome = nome;
   }
 }
+*/
+
+// criar o usuário
+let novoUser = new User('Rodrigo');
+
+// modificar o role
+novoUser.role = 'admin'; // acessando via setter
+console.log(novoUser.role) // admin
+
+// tentar incluir um role não existente
+novoUser.role = 'gerente';
+console.log(novoUser.role) // estudante
