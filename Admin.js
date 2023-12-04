@@ -8,6 +8,10 @@ export default class Admin extends User{
     super((nome,email,nascimento,role,ativo))
 }
 
+nomeAdmin(){
+    //erro deliberado
+    return `${this.nome}`
+}
 
  criarCurso(nomeDoCurso,vagas)
 {
