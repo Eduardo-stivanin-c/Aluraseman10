@@ -9,12 +9,9 @@ import Admin from "./Admin.js";
  //da erro deliberado no da profª também aqui
 //novoUser.#nome="Márcia"
 //novoUser.#email="Márcia"
-
 const novoAdmin = new Admin("Rodrigo",'rd@rd.com',"2021-01-01");
 
-
 console.log(novoAdmin.nome)//Rodrigo;
-
 novoAdmin.nome="André";
 console.log(novoAdmin.nome);
 
