@@ -6,19 +6,29 @@ export default class User{
 #role
 #ativo
     constructor(nome,email,nascimento,role,ativo=true){
-    this.#nome=nome
-    this.#email=email
-    this.#nascimento=nascimento
+    objUser.#nome=nome
+    objUser.#email=email
+    objUser.#nascimento=nascimento
    //define padrão  estudnate 
-    this.#role=role || 'estudante'
-    this.#ativo=ativo
+    objUser.#role=role || 'estudante'
+    objUser.#ativo=ativo
 }
 
 #montaObjUser(){
-    
+    return ({
+        nome:this.#nome,
+        email:this.#email,
+        nascimento:this.#nascimento,
+        role:this.#role,
+        ativo:this.#ativo,
+
+    })
 }
 exibirInfos(){
-    return `${this.#nome}, ${this.#email}`
+   const objUser=this.#montaObjUser()
+
+    return `${objUser.nome}, ${objUser.email},${objUser.nascimento},${objUser.role},
+    ${objUser.ativo}`
 }
 
 }
