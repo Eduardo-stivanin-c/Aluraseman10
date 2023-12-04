@@ -9,12 +9,15 @@ import Admin from "./Admin.js";
  //da erro deliberado no da profª também aqui
 //novoUser.#nome="Márcia"
 //novoUser.#email="Márcia"
-const novoAdmin = new Admin("Rodrigo",'rd@rd.com',"2021-01-01");
+/*const novoAdmin = new Admin("Rodrigo",'rd@rd.com',"2021-01-01");
 
 console.log(novoAdmin.nome)//Rodrigo;
-novoAdmin.nome="André";
+novoAdmin.nome="";
 console.log(novoAdmin.nome);
 
+*/
+const novoDocente=new Docente('Guilherme','g@g.com','2021-01-01')
+console.log(novoDocente.exibirInfos());
 //console.log(novoAdmin.exibirInfos());
 //console.log(novoAdmin.nomeAdmin());
  //# cserve pra demacarp proiedade privada
