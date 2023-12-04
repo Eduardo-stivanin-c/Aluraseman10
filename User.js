@@ -6,12 +6,12 @@ export default class User{
 #role
 #ativo
     constructor(nome,email,nascimento,role,ativo=true){
-    objUser.#nome=nome
-    objUser.#email=email
-    objUser.#nascimento=nascimento
+    this.#nome=nome
+    this.#email=email
+    this.#nascimento=nascimento
    //define padrão  estudnate 
-    objUser.#role=role || 'estudante'
-    objUser.#ativo=ativo
+    this.#role=role || 'estudante'
+    this.#ativo=ativo
 }
 
 #montaObjUser(){
